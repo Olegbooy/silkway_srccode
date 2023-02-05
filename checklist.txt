@@ -1,0 +1,24 @@
+шрифти:
+1) Aeroport(400, 300, 700)
+2) Bebas Neue (400)
+
+
+numeric:
+
+content: '01';
+position: absolute;
+color: $blue;
+font-weight: 400;
+font-size: 165px;
+background: linear-gradient(296.25deg, #153E6A 19.6%, rgba(21, 62, 106, 0) 215.25%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+right: 0;
+top: 0;
+font-family: $bebas;
+line-height: 1;
+@media (max-width: 720px) {
+  @include adaptive-font(160, 87)
+}
