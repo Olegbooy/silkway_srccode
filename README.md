@@ -10,3 +10,5 @@ The main features that the customer liked are the transition between pages witho
 
 The email form was written by using react-hook-form
 
+For changing titles in dependence on pages, in this project was used react-helmet
+
